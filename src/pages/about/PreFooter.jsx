@@ -1,10 +1,11 @@
+import { assets } from "../home/assets/assets"
 
 const PreFooter = () => {
   return (
     <div>
  <div 
   className="relative w-full max-w-[1440px] h-[704px] py-[107px] bg-cover bg-center bg-no-repeat max-[390px]:h-[370px] max-[390px]:py-6 mx-auto max-[390px]:max-w-[390px]"
->
+  style={{ backgroundImage: `url(${assets.extra_content_img})` }}>
 
   <div className="w-[494px] h-[111px] mx-auto max-[390px]:w-[360px] max-[390px]:h-auto">
     <h2 className="font-normal text-3xl text-white text-center  max-[390px]:text-xl">Join the club and get the benefits</h2>
