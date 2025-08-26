@@ -21,7 +21,7 @@ export default function Home() {
                 <nav className="header__nav-bottom">
                     <ul>
                         <li>Plant pots</li>
-                        <li>Ceramics</li>
+                        <li><Link to="/zarina">Ceramics</Link></li>
                         <li>Tables</li>
                         <li><Link to="/olim">Chairs</Link></li>
                         <li>Crockery</li>
