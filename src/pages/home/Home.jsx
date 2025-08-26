@@ -23,7 +23,7 @@ export default function Home() {
                         <li>Plant pots</li>
                         <li>Ceramics</li>
                         <li>Tables</li>
-                        <li>Chairs</li>
+                        <li><Link to="/olim">Chairs</Link></li>
                         <li>Crockery</li>
                         <li>Tableware</li>
                         <li>Cutlery</li>
